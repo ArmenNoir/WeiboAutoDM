@@ -9,6 +9,7 @@
 - python3
 - selenium
 - pause
+- Chrome and paired webdriver
 
 
 
