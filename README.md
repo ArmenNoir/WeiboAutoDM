@@ -1,4 +1,4 @@
-# WeiboAutoDM
+# WeiboAutoDM ver0.2
 
 > This program focuses on automatically sending DMs on Sina Weibo’s webpage at certain time to certain user.
 
@@ -20,7 +20,9 @@ First to run **weibo_cookie.py**, this will open webdriver of Chrome to fetch co
 cookies saved!
 ```
 
-If you have a valid cookie, just modify `dm.json`. Then, set all the arguments in `dm.json`
+~~If you have a valid cookie, just modify `dm.json`. Then, set all the arguments in `dm.json`~~
+
+Now only need to modify **config** in code. Still work but *.json* file can’t be read as *utf-8* so temporarily stop using it. 
 
 ```
 {
@@ -52,7 +54,7 @@ Finished
 
 ## Arguments
 
-All arguments are set in `dm.json` in the same folder with WeiboAutoDM.
+All arguments are set in ~~dm.json~~ config in the code. ~~in the same folder with WeiboAutoDM.~~
 
 ```
 {

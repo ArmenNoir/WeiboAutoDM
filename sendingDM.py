@@ -133,7 +133,12 @@ def _get_config():
 
 if __name__ == '__main__':
     try:
-        config = _get_config()
+        config = {
+    "uid": "1934183965",
+    "msg": "你好，hello",
+    "clock": "2023-02-11 16~03",
+    "cookie_path": ""
+}
         wbDM = sendingDM(config)
         wbDM.start(browser)
         logger.info('Finished\n')
