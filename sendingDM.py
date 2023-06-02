@@ -67,8 +67,11 @@ class sendingDM:
         browser.get(url)
         sleep(5)
 
-    def send_dm(self, browser):   
-        browser.find_element(By.XPATH,'//*[@id="app"]/div[1]/div[2]/div[2]/main/div/div/div[2]/div[1]/div[1]/div[2]/a/button').click()
+    def send_dm(self, browser):  
+        #aborted old version xpath 
+        #browser.find_element(By.XPATH,'//*[@id="app"]/div[1]/div[2]/div[2]/main/div/div/div[2]/div[1]/div[1]/div[2]/a/button').click()
+        #update new xpath 2023-06-02
+        browser.find_element(By.XPATH,'//*[@id="app"]/div[2]/div[2]/div[2]/main/div[1]/div/div[2]/div[1]/div[1]/div[2]/a/button').click()
         sleep(5)    
         # get multiple window
         windows = browser.window_handles
